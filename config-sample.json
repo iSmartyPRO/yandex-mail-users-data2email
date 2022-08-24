@@ -17,6 +17,7 @@
   "To": ["Ilias.Aidar@ismarty.pro", "Ilias@ilianapro.com"],
   "Subject": "! Отчёт по корпоративным почтовым ящикам",
   "Priority": "High",
+  "tableHeaders": ["ID", "Фамилия", "Имя", "Электронная почта", "Должность", "Пол", "Дата создания", "Дата обновления"],
 
   "TaskName": "Send Corporate Yandex Email List",
   "TaskLaunchTime": "7:00 AM"
