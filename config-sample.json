@@ -1,0 +1,23 @@
+{
+  "token": "<TOKEN>",
+  "orgId": "<orgId>",
+  "appId": "<appId>",
+  "clientSecret": "<clientSecret>",
+
+  "AppPath": "D:\\Projects\\yandex-mail-users-data2email",
+
+  "SmtpServer": "smtp.yandex.ru",
+  "SmtpPort": 587,
+  "SMTPUser": "Automailer@yandex.ru",
+  "SMTPPass": "your-password",
+  "EnableSsl": true,
+  "Sender": "Automailer",
+  "ReplyTo": "admins@yandex.ru",
+  "From": "Automailer@yandex.ru",
+  "To": ["Ilias.Aidar@ismarty.pro", "Ilias@ilianapro.com"],
+  "Subject": "! Отчёт по корпоративным почтовым ящикам",
+  "Priority": "High",
+
+  "TaskName": "Send Corporate Yandex Email List",
+  "TaskLaunchTime": "7:00 AM"
+}

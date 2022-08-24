@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width">
+    <title></title>
+    <style>
+        #email {
+            width: 100%;
+        }
+
+        #iTable {
+            width: 100%;
+            border-collapse: collapse;
+            border: 2px solid #000000;
+        }
+
+        .td_GroupName {
+            width: 25%;
+        }
+
+        .td_Path {
+            width: 30%;
+        }
+
+        .td_AccessType {
+            width: 10%;
+            text-align: center;
+        }
+
+        .td_Members {
+            width: 35%;
+        }
+
+        ul {
+            margin: 0 !important;
+            padding: 0 !important;
+            list-style-type: none;
+            list-style-position: inside;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="email">
+        <h2>Отчёт по корпоративным почтовым ящикам</h2>
+        <p>Данное письмо ежедневно автоматически генерируется и отправляется на электронную почту ответственных лиц.</p>
+        <p>Если сотруднику из списка нужно изменить доступ, то необходимо незамедлительно сообщить об этом, написав
+            письмо в ИТ отдел.</p>
+
+
+        <h3>Активные электронные почтовые ящики</h3>
+        {{$active_users}}
+
+        <h3>Не активные электронные почтовые ящики</h3>
+        {{$inactive_users}}
+
+
+
+        <p>С уважеием,<br><b>Автоматизированный скрипт</b></p>
+    </div>
+</body>
+
+</html>
