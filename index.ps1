@@ -27,3 +27,5 @@ Push-iMail  -SMTPServer $config.SMTPServer `
             -To $config.To `
             -Subject $config.Subject `
             -Body $emailBody
+
+Remove-Module iScript
