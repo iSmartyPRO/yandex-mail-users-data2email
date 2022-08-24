@@ -1,4 +1,4 @@
-$config = Get-Content '.\config.json' | Out-String | ConvertFrom-Json
+$config = Get-Content '.\config.json' -Encoding "UTF8" | Out-String | ConvertFrom-Json
 
 Import-Module ".\libs\iScript.psm1"
 
